@@ -33,14 +33,14 @@ html, body{
     height: 90%;
     margin: auto;
     position: relative;
-    border-radius: 15px;
+    border-radius: 30px;
 }
 
 .img{
     height: 37%;
     background-image: url("images/illustration-hero.svg");
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 
 .text-area{
@@ -94,6 +94,12 @@ button{
     border: none;
     border-radius: 5px;
     box-shadow: 3px 3px 10px 1px hsl(245, 75%, 52%);
+    font-size: 1.35rem;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+button:hover{
+    background-color: hsl(224, 53%, 55%);
 }
 
 .c-order{
@@ -104,4 +110,9 @@ button{
 a{
     display: block;
     font-size: 1.5rem;
+}
+
+a:hover{
+    color: hsl(223, 86%, 37%);
+    font-size: 1.6rem;
 }
